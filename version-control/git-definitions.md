@@ -2,6 +2,8 @@
 
 **Instructions: ** Define each of the following Git concepts.
 
+MINOR CHANGE! 
+
 * What is version control?  Why is it useful?
 Version control is a way to keep track of files as they continuously undergo change by multiple programmers. It is userful because it becomes simple to roll back any changes if any problems arise with the code. 
 
