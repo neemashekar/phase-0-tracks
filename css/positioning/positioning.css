@@ -1,0 +1,13 @@
+div.hat {
+    position: relative;
+    left: 300px;
+}
+div.glasses {
+    position: absolute;
+    left: 350px;
+}
+div.octo{
+	position: relative;
+	left: 300px;
+	z-index: -1;
+}
