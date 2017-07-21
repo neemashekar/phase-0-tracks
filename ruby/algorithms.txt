@@ -1,0 +1,23 @@
+RELEASE 0
+
+**ELEVATOR ALG**
+Enter elevator
+desired floor number equals x
+current floor equals i
+for i equals 0 until i equals last floor number
+	if i equals x
+		exit elevator
+	else 
+		increment i by one
+
+RELEASE 1
+
+**TURNING CNN ON TV ALG**
+Pick up remote and enter 0 to change the channel to 0
+CNN channel number equals y
+current channel equals j
+for j equals 0 until j equals last channel number 
+	if j equals y
+		stop pressing the channel up button
+	else
+		press channel up button once 
