@@ -43,18 +43,18 @@ def interiorDesigner_Qs
 	end
 
 	post = {
-		"name" => name,
-		"age" => age,
-		"children" => numChild,
-		"theme" => theme,
-		"pets" => hasPets
+		:name => name,
+		:age => age,
+		:children => numChild,
+		:theme => theme,
+		:pets => hasPets
 	}
 	puts "*****You have entered:*****"
-	puts "Name: #{post["name"]}"
-	puts "Age: #{post["age"]}"
-	puts "Children: #{post["children"]}"
-	puts "Theme: #{post["theme"]}"
-	puts "Pets: #{post["pets"]}"
+	puts "Name: #{post[:name]}"
+	puts "Age: #{post[:age]}"
+	puts "Children: #{post[:children]}"
+	puts "Theme: #{post[:theme]}"
+	puts "Pets: #{post[:pets]}"
 	puts "***************************"
 	puts ""
 
@@ -81,11 +81,11 @@ def interiorDesigner_Qs
 	puts ""
 	puts ""
 	puts "*****You have entered:*****"
-	puts "Name: #{post["name"]}"
-	puts "Age: #{post["age"]}"
-	puts "Children: #{post["children"]}"
-	puts "Theme: #{post["theme"]}"
-	puts "Pets: #{post["pets"]}"
+	puts "Name: #{post[:name]}"
+	puts "Age: #{post[:age]}"
+	puts "Children: #{post[:children]}"
+	puts "Theme: #{post[:theme]}"
+	puts "Pets: #{post[:pets]}"
 	puts "***************************"
 	puts "Thank You!"
 	puts "Exiting.."
