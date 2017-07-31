@@ -1,3 +1,14 @@
+# Ask user to enter strings for their first and last name
+# Send each string to fakeName(string) function. 
+# Continue processing the entire first or last string until the counter reaches the length of string
+# Determine if the current char is a vowel 
+# => if vowel then shift by adding 1 to index for all other vowels besides u
+# => else if 'u' change char to 'a'
+# Determine if current char is a consonent
+# => if consonent then shift by adding 1 to index for all other consonents except y 
+# => else if 'y' change the char to 'b'
+
+
 def fakeName(name)
 	nameLen = name.length
 	nameIndex = 0
@@ -31,6 +42,7 @@ def gatherUserInput
 	dataArray = []
 	ctr = 0
 	while true 
+		puts "-------------TO EXIT TYPE 'QUIT'-------------"
 		puts "Enter first name?:"
 		fname = gets.chomp
 		fname = fname.downcase
