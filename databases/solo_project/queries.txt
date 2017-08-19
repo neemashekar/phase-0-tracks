@@ -1,0 +1,40 @@
+SELECT * 
+FROM employees;
+
+
+UPDATE employees 
+SET has_insurance="true"
+WHERE ssn=456789012;
+
+
+SELECT *
+FROM company, employees;
+
+
+SELECT company.name, company.address, employees.f_name, employees.l_name
+FROM employees
+JOIN company 
+ON employees.company = company.name;
+
+
+DELETE 
+FROM employees
+WHERE l_name = "Shanke"; 
+
+
+SELECT company.name, employees.l_name, employees.has_insurance
+FROM company
+INNER JOIN employees 
+ON company.name = employees.company;
+
+
+SELECT company.name, employees.l_name, employees.has_insurance
+FROM company
+LEFT JOIN employees 
+ON company.name = employees.company;
+
+
+SELECT company.name, employees.l_name, employees.has_insurance
+FROM company
+RIGHT JOIN employees 
+ON company.name = employees.company;
