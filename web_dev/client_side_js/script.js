@@ -1,4 +1,4 @@
-function hideImg1(event){
+function hideImg1(){
 	var x = document.getElementById('black-fox')
 	if (x.style.display === 'none'){
 		x.style.display = 'block';
@@ -8,7 +8,7 @@ function hideImg1(event){
 	}
 }
 
-function hideImg2(event){
+function hideImg2(){
 	var x = document.getElementById('white-fox')
 	if (x.style.display === 'none'){
 		x.style.display = 'block';
@@ -17,8 +17,6 @@ function hideImg2(event){
 		x.style.display = 'none';
 	}
 }
-
-
 
 var btn1 = document.getElementById("black-fox-btn");
 btn1.addEventListener("click", hideImg1);
