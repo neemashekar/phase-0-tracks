@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Favorite Cat</title>
+</head>
+<body>
+  <main>
+    <h1>My Favorite Cat</h1>
+      <button type="button">Check</button>
+  </main>
+  <script
+			  src="https://code.jquery.com/jquery-3.2.1.js"
+			  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+			  crossorigin="anonymous">
+          
+  </script>
+  <script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("p").html("Just kidding... It's actually a bengal!");
+    });
+});
+  </script>
+<p>Neema's favorite cat is a ragdoll.</p>
+</body>
+</html>
